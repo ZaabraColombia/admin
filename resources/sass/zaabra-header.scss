@@ -1,0 +1,46 @@
+.header{
+ background:#f2f2f2 ;
+}
+.contenedorLogo{
+    height: 100%;
+    align-items: center;
+}
+.logoImagen{
+    width: 100%;
+    margin: 10%;
+}
+.icon_user,
+.icon_car {
+    height: 100%;
+}
+.icon_user {
+    background: url("https://zaabra.co/img/Usuario_Iconos.png") no-repeat;
+    background-size: 30px;
+    width: 30px;
+}
+.icon_user:hover {
+    background: url("https://zaabra.co/img/Usuarios_IconosHover.png") no-repeat;
+    background-size: 30px;
+}
+.iconoIniciarSesion {
+    height: 30px;
+    width: 35px;
+}
+.iconoSesionIniciada {
+    background: url("https://zaabra.co/img/Usuario_Iconos.png") no-repeat;
+    background-size: 30px;
+    width: 30px;
+}
+.contenedorIconos {
+    align-items: center;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.bloqueA,
+.bloqueB {
+    display: flex;
+    height: 35px;
+    min-height: 35px;
+}

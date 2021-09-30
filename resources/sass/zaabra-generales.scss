@@ -1,0 +1,153 @@
+//Esta clase es propia de boostrap tener cuidado se pone el contenido en blanco ya que no se ve en fondo negro ED
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    opacity: 0.6;
+    filter: invert(0.8);
+  }
+  
+
+
+.noPadMar {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.noMar {
+    margin: 0 !important;
+}
+.noPad {
+    padding: 0 !important;
+}
+.margenConRespectoHeader{
+    margin-top:5%;
+    margin-bottom: 55%;
+}
+.fondoGeneral{
+    background: url($urlZaabra +'img/general/fondo.jpg')no-repeat;
+    //background: url("https://zaabra.co/img/LoginFondoLetras.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.labelWhite{
+    color: white !important;
+}
+.labelWhite:hover{
+    color: white;
+}
+.margenCasual{
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+.flexed{
+    display: flex;
+
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+.ajusteContenido{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
+.noPadMar {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+ul{
+    list-style:none;
+    padding-left: 0%;
+}
+
+.paddingTopRespectoHeader {
+    padding: 6% 0% 0% 0%;
+}
+
+.marginTopRespectoHeader {
+    margin-top: 3.5%;
+    /*margen con respecto al header para toda la pagina*/
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Oswald';
+    /*fuente general para la pagina*/
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.alineacionFooter {
+    min-height: 48.15vh;
+}
+
+.ajustarContenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.textoImputFile {
+    text-align: center;
+    color: white;
+}
+
+.divFile {
+    position: relative;
+    padding: 5px;
+    width: 150px;
+    background-color: #2499e3;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.inputFile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.divFileFotoPerfil {
+    position: relative;
+    padding: 10px;
+    width: 150px;
+    background: url($urlZaabra +'/img/AgregarIconos.png') no-repeat;
+    background-position: center;
+    border-radius: 5px !important;
+    margin-top: 10px;
+}
+
+.inputFileFotoPerfil {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.imagenAjustadaContenedor {
+    height: 100%;
+}
+.galeriaPremium{
+    padding-bottom: 3.5%;
+}

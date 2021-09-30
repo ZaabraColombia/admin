@@ -1,0 +1,1408 @@
+@charset "UTF-8";
+
+.header {
+  background: #171414;
+}
+
+.contenedorLogo {
+  height: 100%;
+  align-items: center;
+}
+
+.logoImagen {
+  width: 100%;
+  margin: 10%;
+}
+
+.icon_user,
+.icon_car {
+  height: 100%;
+}
+
+.icon_user {
+  background: url("https://zaabra.co/img/Usuario_Iconos.png") no-repeat;
+  background-size: 30px;
+  width: 30px;
+}
+
+.icon_user:hover {
+  background: url("https://zaabra.co/img/Usuarios_IconosHover.png") no-repeat;
+  background-size: 30px;
+}
+
+.iconoIniciarSesion {
+  height: 30px;
+  width: 35px;
+}
+
+.iconoSesionIniciada {
+  background: url("https://zaabra.co/img/Usuario_Iconos.png") no-repeat;
+  background-size: 30px;
+  width: 30px;
+}
+
+.contenedorIconos {
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloqueA,
+.bloqueB {
+  display: flex;
+  height: 35px;
+  min-height: 35px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+
+.noPadMar {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.noMar {
+  margin: 0 !important;
+}
+
+.noPad {
+  padding: 0 !important;
+}
+
+.margenConRespectoHeader {
+  margin-top: 5%;
+  margin-bottom: 55%;
+}
+
+.fondoGeneral {
+  background: url("https://portal.zaabra.co/img/general/fondo.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.labelWhite {
+  color: white !important;
+}
+
+.labelWhite:hover {
+  color: white;
+}
+
+.margenCasual {
+  padding-top: 1%;
+  margin-bottom: 3%;
+}
+
+.flexed {
+  display: flex;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.ajusteContenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.noPadMar {
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0%;
+}
+
+.paddingTopRespectoHeader {
+  padding: 6% 0% 0% 0%;
+}
+
+.marginTopRespectoHeader {
+  margin-top: 3.5%;
+  /*margen con respecto al header para toda la pagina*/
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Oswald";
+  /*fuente general para la pagina*/
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.alineacionFooter {
+  min-height: 48.15vh;
+}
+
+.ajustarContenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.textoImputFile {
+  text-align: center;
+  color: white;
+}
+
+.divFile {
+  position: relative;
+  padding: 5px;
+  width: 150px;
+  background-color: #2499e3;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.inputFile {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.divFileFotoPerfil {
+  position: relative;
+  padding: 10px;
+  width: 150px;
+  background: url("https://portal.zaabra.co//img/AgregarIconos.png") no-repeat;
+  background-position: center;
+  border-radius: 5px !important;
+  margin-top: 10px;
+}
+
+.inputFileFotoPerfil {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.imagenAjustadaContenedor {
+  height: 100%;
+}
+
+.galeriaPremium {
+  padding-bottom: 3.5%;
+}
+
+.fondo-welcome {
+  width: 100%;
+}
+
+#fondoLetras {
+  z-index: 0;
+}
+
+#logoWelcome {
+  z-index: 1;
+}
+
+ul.pagination li {
+  display: inline;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+ul.pagination li a {
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 4px;
+}
+
+ul.pagination li a.active {
+  background-color: #4CAF50;
+  padding: 8px 8px;
+  margin: 4px;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+ul.pagination li.active {
+  /*background-color: #4CAF50;*/
+  background-color: #687282;
+  padding: 8px 8px;
+  margin: 4px;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+/*ul.pagination li a:hover:not(.active) {background-color: #ddd;}*/
+
+ul.pagination li a:hover {
+  background-color: #999999;
+}
+
+ul.pagination li.disabled {
+  /*background-color: #cccccc;*/
+  color: #ddd;
+  padding: 8px 8px;
+  border: 1px solid #ddd;
+  margin: 4px;
+}
+
+.contenedorLupa {
+  background-color: white;
+  padding: 0;
+  border-radius: 0 15px 15px 0;
+  height: 27px;
+  width: 27px;
+  position: absolute;
+  right: 16px;
+}
+
+.contenedorLupa {
+  background: url("https://zaabra.co/img/Lupa_Iconos.png") no-repeat;
+  background-size: 27px;
+}
+
+.contenedorLupa:hover {
+  background: url("https://zaabra.co/img/Lupa_IconosHover.png") no-repeat;
+  background-size: 27px;
+}
+
+.lineaInferiorMiCuenta {
+  color: #ffffff;
+  border: 1px solid;
+}
+
+.tipografiaMiCuenta {
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tipografiaUsuario {
+  font-size: 1em;
+  text-align: end;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.itemMenu {
+  color: #ffffff;
+  list-style: none;
+}
+
+.itemMenu:hover {
+  color: #ffffff;
+}
+
+.img-profesional {
+  width: 100%;
+  height: 100%;
+}
+
+.color-gris {
+  color: #ADACAC;
+}
+
+/*------------------------------------------------------Container Formulario------------------------------------------------------------------------------------------*/
+
+.container-fluid-formulario {
+  background: white;
+}
+
+.form-control {
+  border: 1px solid #ADACAC !important;
+  background-color: transparent !important;
+  border-radius: 0.8rem !important;
+  height: calc(1.9em + .79rem + 6px) !important;
+}
+
+.margin-top-1em {
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+
+/*------------------------------------------------------Icono Guardar------------------------------------------------------------------------------------------*/
+
+.imagen-guardar {
+  float: right;
+  color: #ADACAC;
+  border: 2px solid #ADACAC;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.padding-left-none {
+  padding-left: 0px !important;
+}
+
+.diseñoContenedorFotoPerfil {
+  text-align: center;
+  border-radius: 1px;
+}
+
+.diseñoContenedorFoto {
+  text-align: center;
+  border-radius: 1px;
+}
+
+.diseñoContenedorFotoDocumentos {
+  text-align: center;
+  border-radius: 1px;
+  height: 30vh;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.input-foto {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.noPad {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.input-multiple-titulprofesional {
+  margin-right: 5%;
+}
+
+.div-input-interno {
+  margin-top: 1.5%;
+}
+
+.container-fluid-hoja-vida {
+  margin-top: 2%;
+}
+
+/*------------------------------------------------------Hoja de vida------------------------------------------------------------------------------------------*/
+
+.input-hoja-vida {
+  height: 100px !important;
+}
+
+.input-hoja-horario {
+  height: 170px !important;
+}
+
+.input-estudios {
+  margin-top: 4%;
+}
+
+.span-otros {
+  font-size: 0.9em;
+}
+
+.div-button {
+  text-align: end;
+  margin-top: 5%;
+}
+
+#preview img {
+  width: 100%;
+  display: block;
+}
+
+.diseñoAgregarBoton {
+  background: url("https://portal.zaabra.co/img/AgregarIconos.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 5%;
+}
+
+.add_button_estudios {
+  background: url("https://portal.zaabra.co/img/AgregarIconos.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+}
+
+.texto-botton-agregar {
+  margin-right: 1%;
+  font-size: 0.8em;
+}
+
+.div-imagen-buscar-hoja > input {
+  display: none;
+}
+
+.div-imagen-buscar-hoja img {
+  width: 30px;
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 44%;
+}
+
+.div-imagen-buscar-foto > input {
+  display: none;
+}
+
+.div-imagen-buscar-foto img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.div-galeria {
+  margin-top: 2%;
+}
+
+.titulo-galeria {
+  margin-bottom: 0px;
+}
+
+.titulo-crear-album {
+  padding-right: 1%;
+}
+
+.contenedor-slider {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/*.bordeContenidoDinamico {
+    border: #8e8e8e solid;
+    border-radius: 15px;
+}*/
+
+.ulFormularioPerfilProf {
+  display: flex;
+  flex-direction: row;
+}
+
+.divFileFotosGaleria {
+  position: relative;
+  padding: 5% 0%;
+  width: 150px;
+  background-position: center;
+  border-radius: 5px !important;
+}
+
+.btnSelecOptFormProfesionales {
+  margin: 0%;
+}
+
+.seleccion-formProfesionales {
+  text-align: center;
+  border: 1px solid #ADACAC;
+  color: black;
+  margin: 0% 1% 1% 0%;
+  width: 32%;
+  height: 4vh;
+}
+
+.seleccion-formProfesionales > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.seleccion-formProfesionales:hover {
+  border: 1px solid #1558de;
+}
+
+.seleccion-formProfesionales > a:hover {
+  color: #1558de;
+}
+
+.OptionUserFormProfesionales {
+  margin-left: 0% !important;
+  padding: 3% 0% 3% 2%;
+}
+
+.textAreaDescripcionFormProfesionales {
+  width: 100%;
+  border: #ADACAC solid 1px;
+  border-radius: 15px;
+  padding: 3%;
+}
+
+.inputAreaFormProfesionales {
+  width: 90%;
+  font-size: 0.8333rem;
+  border-radius: 15px;
+  opacity: 70%;
+  padding: 3px 4px;
+}
+
+.inputProfesionFormProfesionales {
+  width: 97%;
+  font-size: 0.8333rem;
+  border-radius: 15px;
+  opacity: 70%;
+  padding: 3px 4px;
+}
+
+.inputEspecialFormProfesionales {
+  width: 97%;
+  font-size: 0.8333rem;
+  border-radius: 15px;
+  opacity: 70%;
+  padding: 3px 0px;
+}
+
+.propiedadesContFormProfesionales {
+  align-self: center;
+  margin-bottom: 0%;
+  padding: 0%;
+  opacity: 80%;
+}
+
+.BtnGuardarFormProfesionales {
+  border: 1px solid;
+  border-radius: 30px;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 1% !important;
+  font-size: 1.7rem !important;
+  color: #ffffff !important;
+  background: #1558d6 !important;
+}
+
+.remove_fieldPublicacion {
+  color: #1558d6;
+}
+
+.remove_fieldEstudio {
+  color: #1558d6;
+}
+
+.remove_fieldCertificados {
+  color: #1558d6;
+}
+
+.remove_Galeria {
+  color: #1558d6;
+}
+
+.alturaImgPrincProfFormProfesional {
+  height: 40vh;
+}
+
+@media (min-width: 320px) and (orientation: portrait) {
+  .alturaImgPrincProfFormProfesional {
+    height: 40vh;
+  }
+
+  .contDatProfFormProfesionales {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .btnEstilosFormProfesionales {
+    background-color: #ffffff;
+    color: #1558d6;
+    border: 2px solid #1558d6;
+    border-radius: 30px !important;
+    margin-top: 7px;
+  }
+
+  .textoImputFileFormProfesionales {
+    text-align: center;
+    color: #1558d6;
+  }
+
+  .divFileFotoPerfilFormProfesionales {
+    position: relative;
+    padding: 0%;
+    width: 150px;
+    background: url("https://portal.zaabra.co//img/AgregarIconos.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px !important;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .removImagenesFormProfesionales {
+    text-align: center;
+    align-self: center;
+    padding-top: 1.7%;
+    border: 2px solid #1558d6;
+    border-radius: 25px;
+    height: 6vh;
+    margin-top: 1%;
+    margin-left: 4%;
+  }
+
+  .fontNameFormProfesionales {
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .fontCityFormProfesionales {
+    padding-left: 3%;
+    font-size: 1.2rem;
+  }
+
+  .contDiaHoraLeftFormProfesionales {
+    padding: 0%;
+  }
+
+  .contDiaHoraRigtFormProfesionales {
+    padding: 0%;
+  }
+
+  .seleccion-formProfesionales {
+    text-align: center;
+    border: 1px solid #ADACAC;
+    color: black;
+    margin: 0% 2% 2% 0%;
+    width: 48%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fontAreaFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.2rem;
+  }
+
+  .inputAreaFormProfesionales {
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .fontProfesionFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.2rem;
+  }
+
+  .inputProfesionFormProfesionales {
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .fontEspecialFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.2rem;
+  }
+
+  .inputEspecialFormProfesionales {
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .tituloSeccDatosPerFormProfesionales {
+    padding: 0%;
+    margin-top: 5%;
+    border-bottom: 2px solid #adacac;
+  }
+
+  .fontTituloSeccFormProfesionales {
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+
+  .fontLabelDatPersFormProfesionales {
+    font-size: 1.2rem;
+    padding-left: 3%;
+  }
+
+  .PropiedadIputDatPersFormProfesionales {
+    font-size: 1.1rem;
+    height: 40px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .tituloSeccEstudiosPerFormProfesionales {
+    padding: 0%;
+    margin-top: 0%;
+    border-bottom: 2px solid #adacac;
+  }
+
+  .contImgEstudFormProfesionales {
+    padding: 0%;
+  }
+
+  .agregarDivImagenestudios {
+    padding: 17%;
+    margin-left: 6%;
+  }
+
+  .BtnAgregarFormProfesionales {
+    display: flex;
+    margin-top: 3%;
+  }
+
+  .diseñoContenedorFotoDocumentos {
+    text-align: center;
+    border-radius: 1px;
+    height: 28vh;
+  }
+
+  .contImgCertifFormProfesionales {
+    padding: 0%;
+  }
+
+  .contImgPublicFormProfesionales {
+    padding: 0%;
+  }
+
+  .contCrearAlbunFormProfesionales {
+    display: flex;
+  }
+
+  .agregarDivImagen {
+    padding: 4%;
+    margin-left: 2%;
+    width: 10%;
+  }
+
+  .diseñoContenedorFoto {
+    height: 13.75rem !important;
+    padding: 0;
+  }
+}
+
+@media (min-width: 375px) and (orientation: portrait) {
+  .fontNameFormProfesionales {
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 1.75rem;
+  }
+
+  .fontCityFormProfesionales {
+    padding-left: 3%;
+    font-size: 1.5rem;
+  }
+
+  .seleccion-formProfesionales {
+    font-size: 1.2rem;
+  }
+
+  .fontAreaFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.5rem;
+  }
+
+  .inputAreaFormProfesionales {
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .fontProfesionFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.5rem;
+  }
+
+  .inputProfesionFormProfesionales {
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .fontEspecialFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.5rem;
+  }
+
+  .inputEspecialFormProfesionales {
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .tituloSeccDatosPerFormProfesionales {
+    padding: 0%;
+    margin-top: 5%;
+    border-bottom: 2px solid #adacac;
+  }
+
+  .fontLabelDatPersFormProfesionales {
+    font-size: 1.5rem;
+    padding-left: 3%;
+  }
+
+  .PropiedadIputDatPersFormProfesionales {
+    font-size: 1.3rem;
+    height: 40px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .tituloSeccEstudiosPerFormProfesionales {
+    padding: 0%;
+    margin-top: 0%;
+    border-bottom: 2px solid #adacac;
+  }
+
+  .BtnAgregarFormProfesionales {
+    display: flex;
+  }
+
+  .textoImputFileFormProfesionales {
+    text-align: center;
+    color: #1558d6;
+    font-size: 1.1em;
+  }
+
+  .diseñoContenedorFotoDocumentos {
+    text-align: center;
+    border-radius: 1px;
+    height: 35vh;
+  }
+
+  .removImagenesFormProfesionales {
+    text-align: center;
+    align-self: center;
+    padding-top: 2%;
+  }
+}
+
+@media (min-width: 425px) and (orientation: portrait) {
+  .fontNameFormProfesionales {
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 1.9rem;
+  }
+
+  .fontCityFormProfesionales {
+    padding-left: 3%;
+    font-size: 1.7rem;
+  }
+
+  .seleccion-formProfesionales {
+    font-size: 1.5rem;
+  }
+
+  .fontAreaFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.7rem;
+  }
+
+  .inputAreaFormProfesionales {
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .fontProfesionFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.7rem;
+  }
+
+  .inputProfesionFormProfesionales {
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .fontEspecialFormProfesionales {
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.7rem;
+  }
+
+  .inputEspecialFormProfesionales {
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    background: white;
+  }
+
+  .fontTituloSeccFormProfesionales {
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+
+  .tituloSeccDatosPerFormProfesionales {
+    padding: 0%;
+    margin-top: 5%;
+    border-bottom: 2px solid #adacac;
+  }
+
+  .fontLabelDatPersFormProfesionales {
+    font-size: 1.5rem;
+    padding-left: 3%;
+  }
+
+  .PropiedadIputDatPersFormProfesionales {
+    font-size: 1.3rem;
+    height: 40px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .tituloSeccEstudiosPerFormProfesionales {
+    padding: 0%;
+    margin-top: 0%;
+    border-bottom: 2px solid #adacac;
+  }
+
+  .BtnAgregarFormProfesionales {
+    display: flex;
+  }
+
+  .textoImputFileFormProfesionales {
+    text-align: center;
+    color: #1558d6;
+    font-size: 1.3em;
+  }
+
+  .diseñoContenedorFotoDocumentos {
+    text-align: center;
+    border-radius: 1px;
+    height: 40vh;
+  }
+
+  .agregarDivImagenCertificados {
+    padding: 11%;
+    margin-left: 6%;
+  }
+
+  .agregarDivImagenPublicacion {
+    padding: 10%;
+    margin-left: 6%;
+  }
+
+  .agregarDivImagen {
+    padding: 4%;
+    margin-left: 2%;
+    width: 9%;
+  }
+
+  .removImagenesFormProfesionales {
+    text-align: center;
+    align-self: center;
+    padding-top: 1.5%;
+    font-size: 1.3em;
+    height: 6vh;
+  }
+
+  .fontFraseGaleriaFormProfesionales {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .divFileFotoPerfilFormProfesionales {
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fontNameFormProfesionales {
+    font-size: 3rem;
+  }
+
+  .fontCityFormProfesionales {
+    font-size: 2.5rem;
+  }
+
+  .fontAreaFormProfesionales {
+    font-size: 2rem;
+  }
+
+  .inputAreaFormProfesionales {
+    font-size: 1.8rem;
+  }
+
+  .fontProfesionFormProfesionales {
+    font-size: 2rem;
+  }
+
+  .inputProfesionFormProfesionales {
+    font-size: 1.8rem;
+  }
+
+  .fontEspecialFormProfesionales {
+    font-size: 2rem;
+  }
+
+  .inputEspecialFormProfesionales {
+    font-size: 1.8rem;
+  }
+
+  .seleccion-formProfesionales {
+    font-size: 2rem;
+  }
+
+  .fontTituloSeccFormProfesionales {
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+
+  .fontLabelDatPersFormProfesionales {
+    font-size: 2em;
+    padding-left: 3%;
+  }
+
+  .PropiedadIputDatPersFormProfesionales {
+    font-size: 1.8rem;
+    height: 55px !important;
+  }
+
+  .textAreaDescripcionFormProfesionales {
+    padding: 2%;
+    font-size: 1.4em;
+  }
+
+  .agregarDivImagenestudios {
+    padding: 17%;
+    margin-left: 6%;
+  }
+
+  .textoImputFileFormProfesionales {
+    font-size: 1.8em;
+  }
+
+  .removImagenesFormProfesionales {
+    text-align: center;
+    align-self: center;
+    padding-top: 1%;
+    font-size: 1.8em;
+    height: 6vh;
+  }
+
+  .diseñoContenedorFotoDocumentos {
+    text-align: center;
+    border-radius: 1px;
+    height: 50vh;
+  }
+
+  .agregarDivImagenCertificados {
+    padding: 11%;
+    margin-left: 6%;
+  }
+
+  .agregarDivImagenPublicacion {
+    padding: 10%;
+    margin-left: 6%;
+  }
+
+  .agregarDivImagen {
+    padding: 3%;
+    margin-left: 1%;
+  }
+
+  .fontFraseGaleriaFormProfesionales {
+    font-size: 1.8em;
+  }
+
+  .diseñoContenedorFoto {
+    height: 30rem !important;
+    padding: 0;
+  }
+
+  .contCrearAlbunFormProfesionales {
+    display: flex;
+  }
+
+  .BtnGuardarFormProfesionales {
+    border: 1px solid;
+    border-radius: 50px;
+    width: 100% !important;
+    padding: 0%;
+    font-size: 2.5rem;
+    color: #ffffff;
+    background: #1558d6;
+  }
+}
+
+@media (min-width: 1024px) {
+  .divFileFotoPerfilFormProfesionales {
+    position: relative;
+    padding: 0% 2% 0% 0%;
+    width: 150px;
+    background: url("https://portal.zaabra.co//img/AgregarIconos.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px !important;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contPrincDatProfFormProfesionales {
+    display: contents;
+  }
+
+  .contDatProfFormProfesionales {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .margTopImgDatoFormProfesionales {
+    margin-top: 4%;
+  }
+
+  .fontNameFormProfesionales {
+    font-size: 2em;
+  }
+
+  .inputAreaFormProfesionales {
+    width: 100%;
+    font-size: 1.3em;
+    border-radius: 10px;
+  }
+
+  .inputProfesionFormProfesionales {
+    width: 100%;
+    font-size: 1.3em;
+    border-radius: 10px;
+  }
+
+  .inputEspecialFormProfesionales {
+    width: 100%;
+    font-size: 1.3em;
+    border-radius: 10px;
+  }
+
+  .seleccion-formProfesionales {
+    text-align: center;
+    border: 1px solid #ADACAC;
+    color: black;
+    margin: 0% 1% 1% 0%;
+    width: 32%;
+    height: 6vh;
+    font-size: 1.5em;
+    padding-top: 0.5%;
+  }
+
+  .tituloSeccDatosPerFormProfesionales {
+    margin-top: 3%;
+  }
+
+  .fontLabelDatPersFormProfesionales {
+    font-size: 1.3rem;
+    padding-left: 3%;
+  }
+
+  .PropiedadIputDatPersFormProfesionales {
+    font-size: 1.3rem;
+  }
+
+  .textAreaDescripcionFormProfesionales {
+    height: 32.6vh;
+    font-size: 1.3em;
+  }
+
+  .contDiaHoraLeftFormProfesionales {
+    padding: 0% 1% 0% 0%;
+  }
+
+  .contDiaHoraRigtFormProfesionales {
+    padding: 0% 0% 0% 1%;
+  }
+
+  .contImgEstudFormProfesionales {
+    padding: 0% 1%;
+  }
+
+  .input-multiple-imagenesGroup-estudios {
+    display: contents;
+  }
+
+  .agregarDivImagenestudios {
+    padding: 18%;
+  }
+
+  .diseñoContenedorFotoDocumentos {
+    text-align: center;
+    border-radius: 1px;
+    height: 40vh;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .contImgCertifFormProfesionales {
+    padding: 0% 1%;
+  }
+
+  .input-multiple-imagenesGroup-Certificados {
+    display: contents;
+  }
+
+  .agregarDivImagenCertificados {
+    padding: 12%;
+  }
+
+  .contImgPublicFormProfesionales {
+    padding: 0% 1%;
+  }
+
+  .agregarDivImagenPublicacion {
+    padding: 11%;
+  }
+
+  .input-multiple-imagenesGroup-Publicacion {
+    display: contents;
+  }
+
+  .contCrearAlbunFormProfesionales {
+    display: flex;
+  }
+
+  .agregarDivImagen {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .fontFraseGaleriaFormProfesionales {
+    font-size: 1.5em;
+  }
+
+  .BtnAgregarFormProfesionales {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+
+  .btnEstilosFormProfesionales {
+    background-color: #ffffff;
+    color: #1558d6;
+    border: 2px solid #1558d6;
+    border-radius: 30px !important;
+    margin-top: 7px;
+  }
+
+  .textoImputFileFormProfesionales {
+    text-align: center;
+    color: #1558d6;
+    font-size: 1.3rem;
+  }
+
+  .removImagenesFormProfesionales {
+    text-align: center;
+    align-self: center;
+    padding-top: 1%;
+    border: 2px solid #1558d6;
+    border-radius: 25px;
+    height: 5vh;
+    margin-top: 1%;
+    margin-left: 4%;
+    font-size: 1.2em;
+  }
+
+  .contBtnInferiorFormProfesionales {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .BtnGuardarFormProfesionales {
+    margin-left: 2%;
+  }
+
+  .fontTituloSeccFormProfesionales {
+    font-weight: bold;
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1500px) {
+  .seleccion-formProfesionales {
+    font-size: 1.8em;
+  }
+
+  .fontNameFormProfesionales {
+    font-size: 2.5em;
+  }
+
+  .fontCityFormProfesionales {
+    font-size: 2em;
+  }
+
+  .fontAreaFormProfesionales {
+    font-size: 1.8rem;
+  }
+
+  .inputAreaFormProfesionales {
+    font-size: 1.5rem;
+  }
+
+  .fontProfesionFormProfesionales {
+    font-size: 1.8rem;
+  }
+
+  .inputProfesionFormProfesionales {
+    font-size: 1.5rem;
+  }
+
+  .fontEspecialFormProfesionales {
+    font-size: 1.8rem;
+  }
+
+  .inputEspecialFormProfesionales {
+    font-size: 1.5rem;
+  }
+
+  .fontLabelDatPersFormProfesionales {
+    font-size: 1.8rem;
+  }
+
+  .PropiedadIputDatPersFormProfesionales {
+    font-size: 1.5rem;
+  }
+
+  .textAreaDescripcionFormProfesionales {
+    height: 34vh;
+    font-size: 1.5em;
+  }
+
+  .removImagenesFormProfesionales {
+    padding-top: 0.5%;
+    height: 4vh;
+  }
+
+  .removImagenesFormProfesionales > a {
+    text-decoration: none;
+  }
+}
+
